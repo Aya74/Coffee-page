@@ -1,2 +1,44 @@
+/* public */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
+* {
+    padding: 0%;
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+
+.container {
+    width: 85%;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+}
+
+.uppercase {
+    text-transform: uppercase;
+}
+
+.capital {
+    text-transform: capitalize;
+}
+
+::selection {
+    background-color: #b68834;
+    color: white;
+}
+
+/* end public */
 
