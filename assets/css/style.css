@@ -42,3 +42,94 @@ a {
 
 /* end public */
 
+
+/* start navbar section style */
+.nav {
+    /* background-color: rgba(20, 2, 0, 0.7); */
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    left: 0px;
+    margin-bottom: 0px;
+}
+
+.contact-info-list {
+    display: flex;
+    justify-content: right;
+    align-items: left;
+    margin-right: 90px;
+    padding-top: 17px;
+}
+
+.info-item {
+    color: white;
+    font-size: 12px;
+    font-weight: 400;
+    letter-spacing: 1px;
+    padding-right: 23px;
+}
+
+.tel-header {
+    color: white;
+}
+
+.nav .logo {
+    width: 20%;
+}
+
+.nav .logo-img {
+    margin-left: 108px;
+}
+
+.nav .list-item {
+    width: 36%;
+    display: flex;
+    justify-content: left;
+}
+
+.link-nav {
+    color: #fff;
+    padding-left: 20px;
+    font-size: 12px;
+    font-weight: 400;
+    cursor: pointer;
+    letter-spacing: 1px;
+}
+
+.fa-solid {
+    color: white;
+    font-size: 9px;
+    font-weight: 600;
+}
+
+.nav .list-item .item .drop-down-list {
+    position: absolute;
+    padding: 20px 0px 20px 10px;
+    top: 50px;
+    right: 0px;
+    width: 170px;
+    background-color: white;
+    opacity: 0;
+    transition: all 0.8s;
+}
+
+.drop-item {
+    padding-bottom: 5px;
+}
+
+.drop-link {
+    color: #333;
+    font-size: 13px;
+}
+
+.drop-link:hover {
+    color: #b68834;
+}
+
+.nav .list-item .item:hover .drop-down-list {
+    opacity: 1;
+    top: 85px;
+    right: 0px;
+}
+
+/* end navbar section style*/
