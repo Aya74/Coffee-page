@@ -131,5 +131,56 @@ a {
     top: 85px;
     right: 0px;
 }
-
 /* end navbar section style*/
+
+
+/* start header section */
+header {
+    background-image: url(../img/headerImg.webp);
+    height: 100vh;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: 0 -15px;
+}
+
+.header-content {
+    text-align: left;
+    padding-top: 65px;
+    padding-left: 18px;
+    color: white;
+}
+
+.sub-header {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.5px;
+    margin-bottom: 20px;
+}
+
+.main-header {
+    font-weight: 600px;
+    font-size: 55px;
+    width: 60%;
+    letter-spacing: 1px;
+    line-height: 75px;
+}
+
+input[type="button"] {
+    margin-top: 15px;
+    padding: 7px 40px 7px 40px;
+    border-radius: 50px;
+    font-size: 15px;
+    background-color: white;
+    border: 1px solid transparent;
+    color: rgba(20, 2, 0, 0.7);
+    font-weight: 500;
+}
+
+input[type="button"]:hover {
+    background-color: rgb(255, 255, 255, .1);
+    border-color: white;
+    color: white;
+    transition: all .5s;
+}
+
+/* end header section */
