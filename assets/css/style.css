@@ -131,6 +131,7 @@ a {
     top: 85px;
     right: 0px;
 }
+
 /* end navbar section style*/
 
 
@@ -184,3 +185,68 @@ input[type="button"]:hover {
 }
 
 /* end header section */
+
+/* start description section style */
+.descriptionSec {
+    margin-top: 33px;
+    height: 450px;
+}
+
+.imageDesc {
+    margin-left: 110px;
+    position: relative;
+}
+
+.descriptionContent {
+    width: 42%;
+}
+
+.shortDesc {
+    color: #b68834;
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.descHeading {
+    font-size: 36px;
+    font-weight: 900;
+    width: 60%;
+    line-height: 1.2em;
+    color: #222;
+    padding-bottom: 20px;
+}
+
+.userAttractionDesc {
+    font-size: 15px;
+    font-weight: 400;
+    padding-bottom: 20px;
+}
+
+.desc {
+    color: #777777;
+    font-size: 14px;
+    font-weight: 300;
+    width: 75%;
+}
+
+#signatureImg {
+    margin-top: 23px;
+}
+
+.overlay {
+    background-color: rgba(0, 0, 0, 0.78);
+    position: absolute;
+    left: 0px;
+    right: 0px;
+    top: 0px;
+    bottom: 5.2px;
+    border-radius: 10px;
+}
+
+.overlayContent {
+    padding-top: 150px;
+    text-align: center;
+}
+
+
+/* end description section style */
