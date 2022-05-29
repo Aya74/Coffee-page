@@ -339,7 +339,7 @@ input[type="button"]:hover {
 
 /* start coffee Statistics section style */
 .coffeeStatistics {
-    height: 700px;
+    height: 730px;
     background-color: #b68834;
 }
 
@@ -349,6 +349,60 @@ input[type="button"]:hover {
 
 .statisticsPara {
     color: white;
+}
+
+.statisticsDivContainer {
+    margin-left: 20px;
+}
+
+.statisticsDiv {
+    width: 48%;
+}
+
+.statisticsDivHeader {
+    color: white;
+    padding-top: 15px;
+    font-size: 16px;
+}
+
+.statisticsDivPara {
+    color: white;
+    font-size: 14px;
+    padding-top: 20px;
+}
+
+.markaHeader {
+    display: flex;
+    flex-direction: row;
+}
+
+.star {
+    margin-top: 15px;
+    margin-left: 10px;
+}
+
+.fa-star {
+    padding-left: 3px;
+    font-size: 11px;
+}
+
+.star .checked {
+    color: orange;
+}
+
+.counterContainer {
+    margin-left: 15px;
+    margin-top: 100px;
+}
+
+.counter {
+    width: 30%;
+    color: white;
+}
+
+.number {
+    font-size: 50px;
+
 }
 
 /* end coffee Statistics section style */
