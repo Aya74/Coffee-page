@@ -264,7 +264,7 @@ input[type="button"]:hover {
     margin-bottom: 69px;
 }
 
-.menuHeading {
+.heading {
     font-size: 36px;
     font-weight: 900;
     color: #222222;
@@ -336,3 +336,19 @@ input[type="button"]:hover {
 }
 
 /* end coffee kinds image section style */
+
+/* start coffee Statistics section style */
+.coffeeStatistics {
+    height: 700px;
+    background-color: #b68834;
+}
+
+.heading {
+    color: white;
+}
+
+.statisticsPara {
+    color: white;
+}
+
+/* end coffee Statistics section style */
