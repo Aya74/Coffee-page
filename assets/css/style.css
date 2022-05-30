@@ -409,7 +409,58 @@ input[type="button"]:hover {
 
 /* start life style section style */
 .lifeStyleSection {
-    height: 800px;
+    height: 850px;
+}
+
+.lifeStyleContainer {
+    padding-left: 22px;
+}
+
+.lifeStyleImg {
+    width: 95%;
+}
+
+.lifeStyleList {
+    margin-bottom: 19px;
+    margin-top: 14px;
+}
+
+.lifeStyleElment {
+    display: inline-block;
+    padding-right: 15px;
+    padding-left: 15px;
+    border: 1px solid #eee;
+    border-radius: 15px;
+}
+
+.lifeStyleElment:hover {
+    background-color: #b68834;
+    border: 1px solid #b68834;
+    transition: all .5s;
+}
+
+.lifeStyleLink {
+    text-decoration: none;
+    font-size: 13px;
+    color: black;
+}
+
+.lifeStyleLink:hover {
+    color: white;
+    transition: all .5s;
+}
+
+.lifeStylePara {
+    margin-top: 10px;
+    margin-bottom: 12px;
+    font-size: 13px;
+    color: #777777;
+    width: 87%;
+}
+
+.date {
+    font-size: 14px;
+    font-weight: 500;
 }
 
 /* end life style section style */
