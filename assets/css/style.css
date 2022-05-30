@@ -343,7 +343,7 @@ input[type="button"]:hover {
     background-color: #b68834;
 }
 
-.heading {
+.statisticsHeading {
     color: white;
 }
 
@@ -406,3 +406,10 @@ input[type="button"]:hover {
 }
 
 /* end coffee Statistics section style */
+
+/* start life style section style */
+.lifeStyleSection {
+    height: 800px;
+}
+
+/* end life style section style */
