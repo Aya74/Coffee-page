@@ -464,3 +464,97 @@ input[type="button"]:hover {
 }
 
 /* end life style section style */
+
+/* start footer style */
+footer {
+    background-image: url(../img/footerBackgroundImg.jpg);
+    height: 500px;
+    background-position: -300px 0px;
+    background-repeat: no-repeat;
+    color: white;
+}
+
+.footerContainer {
+    padding-top: 100px;
+    padding-left: 13px;
+}
+
+footer ::selection {
+    background-color: #777777;
+}
+
+.footerHeading {
+    font-size: 18px;
+}
+
+.footerPara {
+    font-size: 14px;
+}
+
+.aboutUs {
+    width: 44%;
+    padding-top: 67px;
+}
+
+.aboutUsHeading {
+    padding-bottom: 32px;
+}
+
+.aboutAuPara {
+    padding-bottom: 35px;
+}
+
+.changeColor{
+    color: #b68834;
+}
+
+.copyRights {
+    width: 91%;
+}
+
+.newsletter {
+    width: 40%;
+    padding-top: 33px;
+}
+
+.newsletterPara {
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+
+#emailInput {
+    width: 330px;
+    height: 39px;
+    display: inline;
+    margin-right: -4px;
+}
+
+#submitBtn {
+    width: 50px;
+    height: 42.2px;
+    background-color: #b68834;
+}
+
+.followUs {
+    width: 15%;
+    padding-top: 20px;
+}
+
+.followUsPara{
+    padding-top: 32px;
+    padding-bottom: 25px;
+}
+
+.followUsIcons {
+    color: white;
+    padding-right: 20px;
+}
+
+.followUsIcons:hover {
+    color: #b68834;
+    transition: all .5s;
+}
+
+
+/* end footer style */
