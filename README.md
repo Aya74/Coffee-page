@@ -1,7 +1,7 @@
 # ✧ Coffee-page
 
 # ✧ Short description about the page:
-Simple coffee page created with html5 and css3.😄<br>
+Simple coffee page created with html5, css3 and media query.😄<br>
 
 # ✧ The way of installation the project to run it locally:
 
@@ -20,6 +20,7 @@ Simple coffee page created with html5 and css3.😄<br>
 # ✧ Tech stack and the purpose of it:
 * Html5 ➡ To make the structure of the website.<br>
 * Css3 ➡ To add colors, position ..etc to the elements.<br>
+* media query ➡ To make the page responsive.<br>
 
 # ✧ Made by:
 - [Aya Mazen Alarayshi](https://github.com/Aya74)
