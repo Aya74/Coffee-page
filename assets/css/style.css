@@ -19,6 +19,13 @@
     align-items: center;
 }
 
+@media (max-width: 768px) {
+    .row {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
 ul {
     list-style-type: none;
 }
@@ -51,6 +58,12 @@ a {
     top: 0px;
     left: 0px;
     margin-bottom: 0px;
+}
+
+@media (max-width: 768px) {
+    .nav {
+        display: none;
+    }
 }
 
 .contact-info-list {
@@ -144,11 +157,23 @@ header {
     background-position: 0 -15px;
 }
 
+@media (max-width: 768px) {
+    header {
+        height: 80vh;
+    }
+}
+
 .header-content {
     text-align: left;
     padding-top: 65px;
     padding-left: 18px;
     color: white;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        padding-top: 100px;
+    }
 }
 
 .sub-header {
@@ -158,12 +183,21 @@ header {
     margin-bottom: 20px;
 }
 
+
 .main-header {
     font-weight: 600px;
     font-size: 55px;
     width: 60%;
     letter-spacing: 1px;
     line-height: 75px;
+}
+
+@media (max-width: 768px) {
+    .main-header {
+        font-size: 35px;
+        width: 90%;
+        line-height: 38px;
+    }
 }
 
 input[type="button"] {
@@ -192,13 +226,43 @@ input[type="button"]:hover {
     height: 450px;
 }
 
+@media (max-width: 768px) {
+    .descriptionSec {
+        height: 750px;
+
+    }
+}
+
 .imageDesc {
     margin-left: 110px;
     position: relative;
 }
 
+
+
+@media (max-width: 768px) {
+    .imageDesc {
+        margin-left: 2px;
+        width: 95%;
+    }
+}
+
+@media (max-width: 768px) {
+    .coffeeImage {
+        width: 100%;
+    }
+}
+
 .descriptionContent {
     width: 42%;
+}
+
+@media (max-width: 768px) {
+    .descriptionContent {
+        width: 100%;
+        padding-top: 30px;
+        padding-left: 40px;
+    }
 }
 
 .shortDesc {
@@ -216,6 +280,12 @@ input[type="button"]:hover {
     padding-bottom: 20px;
 }
 
+@media (max-width: 768px) {
+    .descHeading {
+        width: 90%;
+    }
+}
+
 .userAttractionDesc {
     font-size: 15px;
     font-weight: 400;
@@ -229,9 +299,16 @@ input[type="button"]:hover {
     width: 75%;
 }
 
+@media (max-width: 768px) {
+    .desc {
+        width: 95%;
+    }
+}
+
 #signatureImg {
     margin-top: 23px;
 }
+
 
 .overlay {
     background-color: rgba(0, 0, 0, 0.78);
@@ -248,6 +325,12 @@ input[type="button"]:hover {
     text-align: center;
 }
 
+@media (max-width: 768px) {
+    .overlayContent {
+        padding-top: 90px;
+    }
+}
+
 
 /* end description section style */
 
@@ -258,16 +341,29 @@ input[type="button"]:hover {
     height: 850px;
 }
 
+@media (max-width: 768px) {
+    .menuSection {
+        height: 1830px;
+    }
+}
+
 .mainHeader {
     text-align: center;
     padding-top: 100px;
     margin-bottom: 69px;
 }
 
+
 .heading {
     font-size: 36px;
     font-weight: 900;
     color: #222222;
+}
+
+@media (max-width: 768px) {
+    .menuHeading {
+        font-size: 30px;
+    }
 }
 
 .para {
@@ -321,6 +417,12 @@ input[type="button"]:hover {
     margin-left: -7px;
 }
 
+@media (max-width: 768px) {
+    .coffeeKindsImage {
+        height: 1960px;
+    }
+}
+
 #coffee1 {
     display: block;
     margin-bottom: 30px;
@@ -335,12 +437,28 @@ input[type="button"]:hover {
     margin-top: 25px;
 }
 
+@media (max-width: 768px) {
+    .coffeeImgDiv {
+        width: 360px;
+        padding-right: 17px;
+        padding-bottom: 13px;
+        margin: auto;
+    }
+
+}
+
 /* end coffee kinds image section style */
 
 /* start coffee Statistics section style */
 .coffeeStatistics {
     height: 730px;
     background-color: #b68834;
+}
+
+@media (max-width: 768px) {
+    .coffeeStatistics {
+        height: 1440px;
+    }
 }
 
 .statisticsHeading {
@@ -355,8 +473,21 @@ input[type="button"]:hover {
     margin-left: 20px;
 }
 
+@media (max-width: 768px) {
+    .statisticsDivContainer {
+        margin-left: 0px;
+    }
+}
+
 .statisticsDiv {
     width: 48%;
+}
+
+@media (max-width: 768px) {
+    .statisticsDiv {
+        width: 100%;
+        padding-bottom: 20px;
+    }
 }
 
 .statisticsDivHeader {
@@ -395,14 +526,36 @@ input[type="button"]:hover {
     margin-top: 100px;
 }
 
+@media (max-width: 768px) {
+    .counterContainer {
+        text-align: center;
+        margin-left: 0px;
+        margin-top: 70px;
+    }
+}
+
 .counter {
     width: 30%;
     color: white;
 }
 
+@media (max-width: 768px) {
+    .counter {
+        width: 50%;
+        margin-bottom: 20px;
+    }
+}
+
 .number {
     font-size: 50px;
 
+}
+
+@media (max-width: 768px) {
+    .number {
+        font-size: 60px;
+
+    }
 }
 
 /* end coffee Statistics section style */
@@ -412,12 +565,36 @@ input[type="button"]:hover {
     height: 850px;
 }
 
+@media (max-width: 768px) {
+    .lifeStyleSection {
+        height: 1240px;
+    }
+}
+
 .lifeStyleContainer {
     padding-left: 22px;
 }
 
+@media (max-width: 768px) {
+    .lifeStyleContainer {
+        padding-left: 2px;
+    }
+}
+
+@media (max-width: 768px) {
+    .lifeStylePara {
+        margin: auto;
+    }
+}
+
 .lifeStyleImg {
     width: 95%;
+}
+
+@media (max-width: 768px) {
+    .lifeStyleImg {
+        width: 100%;
+    }
 }
 
 .lifeStyleList {
@@ -458,9 +635,21 @@ input[type="button"]:hover {
     width: 87%;
 }
 
+@media (max-width: 768px) {
+    .lifeStylePara {
+        width: 100%;
+    }
+}
+
 .date {
     font-size: 14px;
     font-weight: 500;
+}
+
+@media (max-width: 768px) {
+    .date {
+        padding-bottom: 15px;
+    }
 }
 
 /* end life style section style */
@@ -474,10 +663,25 @@ footer {
     color: white;
 }
 
+@media (max-width: 768px) {
+    footer {
+        height: 130vh;
+        background-size: cover;
+    }
+}
+
 .footerContainer {
     padding-top: 100px;
     padding-left: 13px;
 }
+
+@media (max-width: 768px) {
+    .footerContainer {
+        padding-top: 340px;
+        padding-left: 0px;
+    }
+}
+
 
 footer ::selection {
     background-color: #777777;
@@ -495,6 +699,11 @@ footer ::selection {
     width: 44%;
     padding-top: 67px;
 }
+@media (max-width: 768px) {
+    .aboutUs {
+        width: 100%;
+    }
+}
 
 .aboutUsHeading {
     padding-bottom: 32px;
@@ -504,7 +713,7 @@ footer ::selection {
     padding-bottom: 35px;
 }
 
-.changeColor{
+.changeColor {
     color: #b68834;
 }
 
@@ -512,9 +721,16 @@ footer ::selection {
     width: 91%;
 }
 
+
 .newsletter {
     width: 40%;
     padding-top: 33px;
+}
+
+@media (max-width: 768px) {
+    .newsletter {
+        width: 100%;
+    }
 }
 
 .newsletterPara {
@@ -530,6 +746,12 @@ footer ::selection {
     margin-right: -4px;
 }
 
+@media (max-width: 768px) {
+    #emailInput {
+        width: 230px;
+    }
+}
+
 #submitBtn {
     width: 50px;
     height: 42.2px;
@@ -541,14 +763,33 @@ footer ::selection {
     padding-top: 20px;
 }
 
-.followUsPara{
+@media (max-width: 768px) {
+    .followUs {
+        width: 100%;
+    }
+}
+
+.followUsPara {
     padding-top: 32px;
     padding-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+    .followUsPara {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
 }
 
 .followUsIcons {
     color: white;
     padding-right: 20px;
+}
+
+@media (max-width: 768px) {
+    .followUsIcons {
+        padding-right: 30px;
+    }
 }
 
 .followUsIcons:hover {
